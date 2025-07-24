@@ -1,0 +1,160 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /work/binf-courses/binf694/project_1/raw_data/bonemarrow/bonemarrow_5a.s.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.4
+Python version: 3.10.10
+Number of cores used for trimming: 4
+Quality Phred score cutoff: 28
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 3192). Second best hit was Nextera (count: 19)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 50 bp
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: --threads 16
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.4 with Python 3.10.10
+Command line parameters: -j 4 -e 0.1 -q 28 -O 1 -a AGATCGGAAGAGC /work/binf-courses/binf694/project_1/raw_data/bonemarrow/bonemarrow_5a.s.fastq.gz
+Processing single-end reads on 4 cores ...
+Finished in 168.525 s (8.426 µs/read; 7.12 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              20,000,000
+Reads with adapters:                 7,269,781 (36.3%)
+Reads written (passing filters):    20,000,000 (100.0%)
+
+Total basepairs processed: 2,020,000,000 bp
+Quality-trimmed:              77,363,790 bp (3.8%)
+Total written (filtered):  1,899,617,657 bp (94.0%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 7269781 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 34.5%
+  C: 27.8%
+  G: 15.1%
+  T: 16.2%
+  none/other: 6.5%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4770146	5000000.0	0	4770146
+2	1524387	1250000.0	0	1524387
+3	333838	312500.0	0	333838
+4	71266	78125.0	0	71266
+5	19668	19531.2	0	19668
+6	6337	4882.8	0	6337
+7	2426	1220.7	0	2426
+8	3204	305.2	0	3204
+9	4778	76.3	0	4358 420
+10	2784	19.1	1	2254 530
+11	1645	4.8	1	1357 288
+12	2342	1.2	1	2174 168
+13	2740	0.3	1	2581 159
+14	2226	0.3	1	2066 160
+15	2728	0.3	1	2479 249
+16	2235	0.3	1	1933 302
+17	3557	0.3	1	3175 382
+18	3130	0.3	1	2852 278
+19	932	0.3	1	675 257
+20	2695	0.3	1	2363 332
+21	1710	0.3	1	1352 358
+22	1640	0.3	1	1412 228
+23	2540	0.3	1	1906 634
+24	2409	0.3	1	1847 562
+25	2764	0.3	1	2185 579
+26	1364	0.3	1	567 797
+27	2799	0.3	1	1936 863
+28	2843	0.3	1	1704 1139
+29	2576	0.3	1	1617 959
+30	2867	0.3	1	2115 752
+31	1258	0.3	1	465 793
+32	2684	0.3	1	1595 1089
+33	3140	0.3	1	977 2163
+34	5594	0.3	1	1459 4135
+35	4169	0.3	1	1654 2515
+36	6298	0.3	1	707 5591
+37	2835	0.3	1	1633 1202
+38	2012	0.3	1	86 1926
+39	5797	0.3	1	949 4848
+40	6672	0.3	1	1266 5406
+41	4162	0.3	1	955 3207
+42	7720	0.3	1	351 7369
+43	5104	0.3	1	1228 3876
+44	1674	0.3	1	555 1119
+45	1076	0.3	1	349 727
+46	980	0.3	1	181 799
+47	2687	0.3	1	285 2402
+48	1420	0.3	1	704 716
+49	1306	0.3	1	198 1108
+50	1600	0.3	1	362 1238
+51	2101	0.3	1	288 1813
+52	1658	0.3	1	238 1420
+53	2708	0.3	1	411 2297
+54	5816	0.3	1	432 5384
+55	1800	0.3	1	499 1301
+56	1316	0.3	1	120 1196
+57	1186	0.3	1	49 1137
+58	4392	0.3	1	200 4192
+59	1690	0.3	1	346 1344
+60	1656	0.3	1	117 1539
+61	1801	0.3	1	196 1605
+62	1475	0.3	1	203 1272
+63	2020	0.3	1	99 1921
+64	4728	0.3	1	248 4480
+65	11729	0.3	1	265 11464
+66	5449	0.3	1	320 5129
+67	5477	0.3	1	217 5260
+68	8356	0.3	1	216 8140
+69	14169	0.3	1	264 13905
+70	20401	0.3	1	301 20100
+71	25367	0.3	1	421 24946
+72	35087	0.3	1	515 34572
+73	70993	0.3	1	548 70445
+74	103130	0.3	1	1023 102107
+75	61218	0.3	1	1271 59947
+76	4005	0.3	1	709 3296
+77	292	0.3	1	49 243
+78	52	0.3	1	3 49
+79	28	0.3	1	1 27
+80	23	0.3	1	1 22
+81	20	0.3	1	1 19
+82	13	0.3	1	2 11
+83	13	0.3	1	1 12
+84	11	0.3	1	2 9
+85	11	0.3	1	0 11
+86	15	0.3	1	1 14
+87	19	0.3	1	0 19
+88	22	0.3	1	3 19
+89	30	0.3	1	2 28
+90	28	0.3	1	3 25
+91	57	0.3	1	0 57
+92	95	0.3	1	5 90
+93	86	0.3	1	1 85
+94	134	0.3	1	3 131
+95	157	0.3	1	1 156
+96	287	0.3	1	4 283
+97	422	0.3	1	3 419
+98	797	0.3	1	3 794
+99	1593	0.3	1	15 1578
+100	4939	0.3	1	46 4893
+101	6145	0.3	1	73 6072
+
+RUN STATISTICS FOR INPUT FILE: /work/binf-courses/binf694/project_1/raw_data/bonemarrow/bonemarrow_5a.s.fastq.gz
+=============================================
+20000000 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 50 bp:	920094 (4.6%)
+

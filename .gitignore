@@ -1,0 +1,7 @@
+*.bam
+*.bai
+*.fq.gz
+*.fastq.gz
+*.zip
+*.html
+.DS_Store
